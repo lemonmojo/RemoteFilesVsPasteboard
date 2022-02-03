@@ -16,6 +16,7 @@
 		E76F950327ABDB2B005BFCF8 /* RemoteFilePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E76F950227ABDB2B005BFCF8 /* RemoteFilePresenter.m */; };
 		E76F950627ABEE63005BFCF8 /* FileSystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E76F950527ABEE63005BFCF8 /* FileSystemUtils.m */; };
 		E76F950927ABFD3F005BFCF8 /* RemoteFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E76F950827ABFD3F005BFCF8 /* RemoteFile.m */; };
+		E775BFE127AC27810015C8EB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E775BFE027AC27810015C8EB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E76F950727ABFD3F005BFCF8 /* RemoteFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteFile.h; sourceTree = "<group>"; };
 		E76F950827ABFD3F005BFCF8 /* RemoteFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteFile.m; sourceTree = "<group>"; };
 		E76F950B27AC0628005BFCF8 /* RemoteFilePresenterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteFilePresenterDelegate.h; sourceTree = "<group>"; };
+		E775BFE027AC27810015C8EB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		E76F94DF27ABD5ED005BFCF8 = {
 			isa = PBXGroup;
 			children = (
+				E775BFE027AC27810015C8EB /* README.md */,
 				E76F94EA27ABD5ED005BFCF8 /* Source */,
 				E76F94E927ABD5ED005BFCF8 /* Products */,
 			);
@@ -147,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E775BFE127AC27810015C8EB /* README.md in Resources */,
 				E76F94EF27ABD5EE005BFCF8 /* Assets.xcassets in Resources */,
 				E76F94F227ABD5EE005BFCF8 /* MainMenu.xib in Resources */,
 			);
