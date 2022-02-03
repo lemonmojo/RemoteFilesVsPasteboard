@@ -23,5 +23,6 @@ Here's a basic overview of how this works:
 - As soon as paste is triggered in Finder, [`-[NSFilePresenter relinquishPresentedItemToReader:]`](https://developer.apple.com/documentation/foundation/nsfilepresenter/1410743-relinquishpresenteditemtoreader) is called
 - The data is written asynchronously to the temporary file (in a real application, the data would first be downloaded, then written to disk)
 - Once the write is complete, the completion handler is invoked
+- The file presenter is removed from `NSFileCoordinator` to prevent further invocations
 - This returns control of the paste operation to the system
 - The temporary file is finally copied to its target location
